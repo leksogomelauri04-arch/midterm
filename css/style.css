@@ -56,16 +56,16 @@ a {
   text-decoration: none;
 }
 
-body header div.h_logo div.logo, body main section.sec_1 div.left div.small_text div.logo, body main section.sec_1 div.right div.bottom div.logo, body footer section.sec_3 div.footer_1 .f_logo div.logo, body footer section.sec_3 div.footer_1 div.icons div.icon {
+body.about header div.h_logo div.logo, body.index header div.h_logo div.logo, body.index main section.sec_1 div.left div.small_text div.logo, body.index main section.sec_1 div.right div.bottom div.logo, body.index footer section.sec_3 div.footer_1 .f_logo div.logo, body.index footer section.sec_3 div.footer_1 div.icons div.icon {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-body {
+body.index {
   margin: 0 auto;
 }
-body header {
+body.index header {
   margin: 0 auto;
   box-sizing: border-box;
   max-width: 1400px;
@@ -75,14 +75,14 @@ body header {
   align-items: center;
   padding: 15px;
 }
-body header div.h_logo {
+body.index header div.h_logo {
   display: flex;
   align-items: center;
   font-size: 22px;
   font-weight: 800;
   gap: 5px;
 }
-body header div.h_logo div.logo {
+body.index header div.h_logo div.logo {
   height: 40px;
   width: 40px;
   background-color: #4F46E5;
@@ -91,16 +91,16 @@ body header div.h_logo div.logo {
   font-size: 16.8px;
   font-weight: 700;
 }
-body header nav ul {
+body.index header nav ul {
   display: flex;
   gap: 32px;
 }
-body header nav ul a {
+body.index header nav ul a {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: #475569;
 }
-body header button {
+body.index header button {
   width: 146px;
   height: 49px;
   background-color: #4F46E5;
@@ -109,20 +109,20 @@ body header button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
-body main {
+body.index main {
   background-color: #F8FAFC;
 }
-body main section.sec_1 {
+body.index main section.sec_1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-body main section.sec_1 div.left {
+body.index main section.sec_1 div.left {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-body main section.sec_1 div.left div.small_text {
+body.index main section.sec_1 div.left div.small_text {
   height: 34px;
   width: 275px;
   background-color: #EEF2FF;
@@ -132,12 +132,12 @@ body main section.sec_1 div.left div.small_text {
   justify-content: space-between;
   padding: 0px 10px;
 }
-body main section.sec_1 div.left div.small_text p {
+body.index main section.sec_1 div.left div.small_text p {
   color: #4F46E5;
   font-size: 14px;
   font-weight: 700;
 }
-body main section.sec_1 div.left div.small_text div.logo {
+body.index main section.sec_1 div.left div.small_text div.logo {
   height: 18px;
   width: 18px;
   background-color: #4F46E5;
@@ -145,23 +145,23 @@ body main section.sec_1 div.left div.small_text div.logo {
   font-size: 7.56px;
   color: white;
 }
-body main section.sec_1 div.left h1 {
+body.index main section.sec_1 div.left h1 {
   font-size: 54px;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
 }
-body main section.sec_1 div.left p {
+body.index main section.sec_1 div.left p {
   font-family: "Roboto", sans-serif;
   color: #475569;
   font-size: 18px;
   font-weight: 400;
 }
-body main section.sec_1 div.left div.btns {
+body.index main section.sec_1 div.left div.btns {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-body main section.sec_1 div.left div.btns .start {
+body.index main section.sec_1 div.left div.btns .start {
   height: 49px;
   width: 167px;
   border-radius: 10px;
@@ -170,7 +170,7 @@ body main section.sec_1 div.left div.btns .start {
   color: white;
   background-color: #4F46E5;
 }
-body main section.sec_1 div.left div.btns .view {
+body.index main section.sec_1 div.left div.btns .view {
   height: 49px;
   width: 167px;
   border-radius: 10px;
@@ -179,7 +179,7 @@ body main section.sec_1 div.left div.btns .view {
   background-color: white;
   color: black;
 }
-body main section.sec_1 div.right {
+body.index main section.sec_1 div.right {
   height: 316px;
   width: 560px;
   background-color: #4F46E5;
@@ -189,7 +189,7 @@ body main section.sec_1 div.right {
   justify-content: center;
   align-items: center;
 }
-body main section.sec_1 div.right div.top {
+body.index main section.sec_1 div.right div.top {
   height: 160px;
   width: 340px;
   background-color: white;
@@ -200,21 +200,21 @@ body main section.sec_1 div.right div.top {
   justify-content: space-around;
   padding-left: 20px;
 }
-body main section.sec_1 div.right div.top p.gray {
+body.index main section.sec_1 div.right div.top p.gray {
   font-size: 12px;
   color: #94A3B8;
   font-weight: 400;
 }
-body main section.sec_1 div.right div.top h3 {
+body.index main section.sec_1 div.right div.top h3 {
   font-size: 30px;
   font-weight: 800;
 }
-body main section.sec_1 div.right div.top p.green {
+body.index main section.sec_1 div.right div.top p.green {
   font-size: 13px;
   font-weight: 600;
   color: #16A34A;
 }
-body main section.sec_1 div.right div.bottom {
+body.index main section.sec_1 div.right div.bottom {
   height: 84px;
   width: 340px;
   background-color: white;
@@ -224,24 +224,24 @@ body main section.sec_1 div.right div.bottom {
   align-items: center;
   gap: 10px;
 }
-body main section.sec_1 div.right div.bottom div.logo {
+body.index main section.sec_1 div.right div.bottom div.logo {
   height: 44px;
   width: 44px;
   border-radius: 12px;
   background-color: #EEF2FF;
   color: #4F46E5;
 }
-body main section.sec_1 div.right div h5 {
+body.index main section.sec_1 div.right div h5 {
   font-size: 15px;
   font-weight: 600;
   padding: 10px 0px;
 }
-body main section.sec_1 div.right div p {
+body.index main section.sec_1 div.right div p {
   font-size: 12px;
   color: #94A3B8;
   font-weight: 400;
 }
-body main section.sec_2 {
+body.index main section.sec_2 {
   margin-top: 80px;
   padding: 20px;
   background-color: white;
@@ -250,24 +250,24 @@ body main section.sec_2 {
   justify-content: center;
   align-items: center;
 }
-body main section.sec_2 p {
+body.index main section.sec_2 p {
   font-size: 13px;
   font-weight: 700;
   color: #94A3B8;
   padding: 30px;
 }
-body main section.sec_2 nav ul {
+body.index main section.sec_2 nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 60px;
 }
-body main section.sec_2 nav ul a {
+body.index main section.sec_2 nav ul a {
   font-size: 24px;
   font-weight: 700;
   color: #E2E8F0;
 }
-body main section.sec_3 div.text {
+body.index main section.sec_3 div.text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -275,27 +275,27 @@ body main section.sec_3 div.text {
   gap: 20px;
   padding: 100px;
 }
-body main section.sec_3 div.text h5 {
+body.index main section.sec_3 div.text h5 {
   font-size: 14px;
   font-weight: 700;
   color: #4F46E5;
 }
-body main section.sec_3 div.text h3 {
+body.index main section.sec_3 div.text h3 {
   font-size: 38px;
   font-weight: 800;
   color: black;
 }
-body main section.sec_3 div.text p {
+body.index main section.sec_3 div.text p {
   font-size: 18px;
   font-weight: 400;
   color: #475569;
 }
-body main section.sec_3 div.cards {
+body.index main section.sec_3 div.cards {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-body main section.sec_3 div.cards div.card {
+body.index main section.sec_3 div.cards div.card {
   background-color: white;
   height: 210px;
   width: 370px;
@@ -305,7 +305,7 @@ body main section.sec_3 div.cards div.card {
   padding: 20px;
   gap: 30px;
 }
-body main section.sec_3 div.cards div.card div.logo {
+body.index main section.sec_3 div.cards div.card div.logo {
   background-color: #EEF2FF;
   width: 52px;
   height: 52px;
@@ -316,49 +316,49 @@ body main section.sec_3 div.cards div.card div.logo {
   justify-content: center;
   align-items: center;
 }
-body main section.sec_3 div.cards div.card h4 {
+body.index main section.sec_3 div.cards div.card h4 {
   font-size: 22px;
   font-weight: 700;
   color: #0F172A;
 }
-body main section.sec_3 div.cards div.card p {
+body.index main section.sec_3 div.cards div.card p {
   font-size: 16px;
   font-weight: 400;
   color: #475569;
 }
-body main section.sec_3 div.cards div.card a {
+body.index main section.sec_3 div.cards div.card a {
   font-size: 15px;
   font-weight: 600;
   color: #4F46E5;
 }
-body footer {
+body.index footer {
   margin-top: 100px;
   background-color: #0B1120;
 }
-body footer section.sec_1 {
+body.index footer section.sec_1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #0B1120;
 }
-body footer section.sec_1 div {
+body.index footer section.sec_1 div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 50px;
 }
-body footer section.sec_1 div h3 {
+body.index footer section.sec_1 div h3 {
   font-size: 44px;
   font-weight: 800;
   color: #FFFFFF;
 }
-body footer section.sec_1 div p {
+body.index footer section.sec_1 div p {
   font-size: 15px;
   font-weight: 400;
   color: #94A3B8;
 }
-body footer section.sec_2 {
+body.index footer section.sec_2 {
   background-color: #4F46E5;
   display: flex;
   flex-direction: column;
@@ -367,17 +367,17 @@ body footer section.sec_2 {
   padding: 50px;
   gap: 30px;
 }
-body footer section.sec_2 h1 {
+body.index footer section.sec_2 h1 {
   font-size: 40px;
   font-weight: 800;
   color: white;
 }
-body footer section.sec_2 p {
+body.index footer section.sec_2 p {
   font-size: 18px;
   font-weight: 400;
   color: #E0E7FF;
 }
-body footer section.sec_2 button {
+body.index footer section.sec_2 button {
   height: 51px;
   width: 159px;
   border-radius: 10px;
@@ -386,26 +386,26 @@ body footer section.sec_2 button {
   font-size: 16px;
   font-weight: 700;
 }
-body footer section.sec_3 {
+body.index footer section.sec_3 {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #0B1120;
 }
-body footer section.sec_3 div.footer_1 {
+body.index footer section.sec_3 div.footer_1 {
   display: flex;
   flex-direction: column;
   padding: 20px;
   gap: 20px;
 }
-body footer section.sec_3 div.footer_1 .f_logo {
+body.index footer section.sec_3 div.footer_1 .f_logo {
   display: flex;
   align-items: center;
   font-size: 22px;
   font-weight: 800;
   gap: 5px;
 }
-body footer section.sec_3 div.footer_1 .f_logo div.logo {
+body.index footer section.sec_3 div.footer_1 .f_logo div.logo {
   height: 40px;
   width: 40px;
   background-color: #4F46E5;
@@ -414,21 +414,21 @@ body footer section.sec_3 div.footer_1 .f_logo div.logo {
   font-size: 16.8px;
   font-weight: 700;
 }
-body footer section.sec_3 div.footer_1 .f_logo .text {
+body.index footer section.sec_3 div.footer_1 .f_logo .text {
   font-size: 22px;
   font-weight: 800;
   color: white;
 }
-body footer section.sec_3 div.footer_1 p {
+body.index footer section.sec_3 div.footer_1 p {
   font-size: 15px;
   font-weight: 400;
   color: #94A3B8;
 }
-body footer section.sec_3 div.footer_1 div.icons {
+body.index footer section.sec_3 div.footer_1 div.icons {
   display: flex;
   justify-content: space-between;
 }
-body footer section.sec_3 div.footer_1 div.icons div.icon {
+body.index footer section.sec_3 div.footer_1 div.icons div.icon {
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -437,30 +437,263 @@ body footer section.sec_3 div.footer_1 div.icons div.icon {
   font-size: 15px;
   font-weight: 700;
 }
-body footer section.sec_3 div.contact h4 {
+body.index footer section.sec_3 div.contact h4 {
   font-size: 15px;
   font-weight: 700;
   color: white;
   margin-bottom: 10px;
 }
-body footer section.sec_3 div.contact ul {
+body.index footer section.sec_3 div.contact ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
 }
-body footer section.sec_3 div.contact ul li {
+body.index footer section.sec_3 div.contact ul li {
   font-size: 14px;
   font-weight: 400;
   color: #94A3B8;
 }
-body footer div hr {
+body.index footer div hr {
   width: 90%;
   background-color: #1E293B;
 }
-body footer div p {
+body.index footer div p {
   font-size: 13px;
   font-weight: 400;
   color: #64748B;
   padding: 30px 70px;
+}
+
+body.about {
+  margin: 0 auto;
+}
+body.about header {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1400px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+body.about header div.h_logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  gap: 5px;
+}
+body.about header div.h_logo div.logo {
+  height: 40px;
+  width: 40px;
+  background-color: #4F46E5;
+  border-radius: 12px;
+  color: white;
+  font-size: 16.8px;
+  font-weight: 700;
+}
+body.about header nav ul {
+  display: flex;
+  gap: 32px;
+}
+body.about header nav ul a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #475569;
+}
+body.about header button {
+  width: 146px;
+  height: 49px;
+  background-color: #4F46E5;
+  color: white;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+body.about main {
+  background-color: #F8FAFC;
+}
+body.about main section.sec_1 div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+}
+body.about main section.sec_1 div.text h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+body.about main section.sec_1 div.text h1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: black;
+}
+body.about main section.sec_1 div.text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+}
+body.about main section.sec_2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px;
+}
+body.about main section.sec_2 div.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  gap: 30px;
+}
+body.about main section.sec_2 div.left h5 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+body.about main section.sec_2 div.left h2 {
+  font-size: 34px;
+  font-weight: 800;
+  color: #0F172A;
+}
+body.about main section.sec_2 div.left p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #475569;
+  line-height: 28px;
+}
+body.about main section.sec_2 div.right {
+  height: 400px;
+  width: 540px;
+  border-radius: 24px;
+  background-color: #4F46E5;
+}
+body.about main section.sec_3 div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+}
+body.about main section.sec_3 div.text h5 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+body.about main section.sec_3 div.text h3 {
+  font-size: 38px;
+  font-weight: 800;
+  color: black;
+}
+body.about main section.sec_3 div.text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+}
+body.about main section.sec_3 div.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body.about main section.sec_3 div.cards div.card {
+  background-color: white;
+  height: 180px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  padding: 20px;
+  gap: 30px;
+}
+body.about main section.sec_3 div.cards div.card div.logo {
+  background-color: #EEF2FF;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  color: #4F46E5;
+  font-size: 21.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body.about main section.sec_3 div.cards div.card h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0F172A;
+}
+body.about main section.sec_3 div.cards div.card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+}
+body.about main section.sec_3 div.cards div.card a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #4F46E5;
+}
+body.about main section.sec_4 div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+}
+body.about main section.sec_4 div.text h5 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+body.about main section.sec_4 div.text h3 {
+  font-size: 38px;
+  font-weight: 800;
+  color: black;
+}
+body.about main section.sec_4 div.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body.about main section.sec_4 div.cards div.card {
+  background-color: white;
+  height: 210px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  padding: 20px;
+  gap: 30px;
+}
+body.about main section.sec_4 div.cards div.card div.logo {
+  background-color: #EEF2FF;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  color: #4F46E5;
+  font-size: 21.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body.about main section.sec_4 div.cards div.card h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0F172A;
+}
+body.about main section.sec_4 div.cards div.card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+}
+body.about main section.sec_4 div.cards div.card a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #4F46E5;
 }/*# sourceMappingURL=style.css.map */
