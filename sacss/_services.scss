@@ -1,8 +1,7 @@
 @use "variables";
 @use "placeholders";
 
-
-body.index{
+body.services{
     margin: 0 auto;
     
     header{
@@ -14,7 +13,6 @@ body.index{
         justify-content: space-between;
         align-items: center;
         padding: 15px;
-
         div.h_logo{
             display: flex;
             align-items: center;
@@ -57,172 +55,7 @@ body.index{
     }
     main{
         background-color: #F8FAFC;
-        
         section.sec_1{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            div.left{
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-            div.small_text{
-                height: 34px;
-                width: 275px;
-                background-color: #EEF2FF;   
-                border-radius: 100px;   
-                display: flex;
-                align-items: center;
-                justify-content: space-between;  
-                padding: 0px 10px;
-                p{
-                    color: variables.$primary-color;
-                    font-size: 14px;
-                    font-weight: 700;
-                };
-                div.logo{
-                    height: 18px;
-                    width: 18px;
-                    background-color: variables.$primary-color;
-                    border-radius: 50%;
-                    font-size: 7.56px;
-                    color: white;
-                    @extend %flex-center;
-                
-                }    
-            }
-            h1{
-                font-size: 54px;
-                font-family: variables.$inter-font;
-                font-weight: 800;
-            }
-            p{
-                font-family: variables.$inter-font;
-                color: #475569;
-                font-size: 18px;
-                font-weight: 400;
-            }
-            div.btns{
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                .start{
-                    height: 49px;
-                    width: 167px;
-                    border-radius: 10px;
-                    font-size: 16px;
-                    font-weight: 600;
-                    color: white;
-                    background-color: variables.$primary-color;
-                }
-                .view{
-                    height: 49px;
-                    width: 167px;
-                    border-radius: 10px;
-                    font-size: 16px;
-                    font-weight: 600;
-                    background-color: white;
-                    color: black;
-                }
-            }
-        }
-        div.right{
-            height: 316px;
-            width: 560px;
-            background-color: variables.$primary-color;
-            border-radius: 28px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            div.top{
-                height: 160px;
-                width: 340px;
-                background-color: white;
-                border-radius: 16px;
-                margin-bottom: 20px;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                padding-left: 20px;
-                p.gray{
-                    font-size: 12px;
-                    color: #94A3B8;
-                    font-weight: 400;
-                }
-                h3{
-                    font-size: 30px;
-                    font-weight: 800;
-                }
-                p.green{
-                    font-size: 13px;
-                    font-weight: 600;
-                    color: #16A34A;
-                }
-            }
-            div.bottom{
-                height: 84px;
-                width: 340px;
-                background-color: white;
-                border-radius: 16px;
-                padding-left: 20px;
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                div.logo{
-                    height: 44px;
-                    width: 44px;
-                    border-radius: 12px;
-                    background-color: #EEF2FF;
-                    color: variables.$primary-color;
-                    @extend %flex-center
-                }
-            }
-            div{
-                
-                h5{
-                    font-size: 15px;
-                    font-weight: 600;
-                    padding: 10px 0px;
-                }
-                p{
-                    font-size: 12px;
-                    color: #94A3B8;
-                    font-weight: 400;
-                }
-            }
-
-        }
-        }
-        section.sec_2{
-            margin-top: 80px;
-            padding: 20px;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            p{
-            font-size: 13px;
-            font-weight: 700;
-            color: #94A3B8;
-            padding: 30px;
-        }
-        nav{
-            ul{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 60px;
-                a{
-                    font-size: 24px;
-                    font-weight: 700;
-                    color: #E2E8F0;
-                }
-            }
-        }
-        }
-        section.sec_3{
             div.text{
             display: flex;
             flex-direction: column;
@@ -231,11 +64,11 @@ body.index{
             gap: 20px;
             padding: 100px;
             h5{
-                font-size: 14px;
+                font-size: 15px;
                 font-weight: 700;
                 color: variables.$primary-color;
             }
-            h3{
+            h1{
                 font-size: 38px;
                 font-weight: 800;
                 color: black;
@@ -244,16 +77,22 @@ body.index{
                 font-size: 18px;
                 font-weight: 400;
                 color: #475569;
-            }
+              }
+            }  
         }
-        div.cards{
+        section.sec_2{
+            padding: 60px;
+            background-color: white;
+            div.cards{
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-around;
             align-items: center;
+            gap: 30px;
             div.card{
-                background-color: white;
+                background-color: #F8FAFC;
                 height: 210px;
-                width: 370px;
+                width: 350px;
                 display: flex;
                 flex-direction: column;
                 border-radius: 18px;
@@ -286,37 +125,80 @@ body.index{
                     color: variables.$primary-color;
                 }
             }
-        }       
+        }  
+        
+            }
+            section.sec_3{
+            padding: 50px;
+            div.text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 100px;
+            h5{
+                font-size: 14px;
+                font-weight: 700;
+                color: variables.$primary-color;
+            }
+            h3{
+                font-size: 38px;
+                font-weight: 800;
+                color: black;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400;
+                color: #475569;
+            }
         }
-    }
-    footer{
-        margin-top: 100px;
-        background-color: #0B1120;
-        section.sec_1{
+        div.cards{
             display: flex;
             justify-content: space-around;
             align-items: center;
-            background-color: #0B1120 ;
-            div{
+            div.card{
+                background-color: white;
+                height: 180px;
+                width: 250px;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                padding: 50px;
-                h3{
-                    font-size: 44px;
-                    font-weight: 800;
-                    color: #FFFFFF;
+                border-radius: 18px;
+                padding: 20px;
+                gap: 30px;
+                div.logo{
+                    background-color: variables.$primary-color;
+                    width:52px ;
+                    height: 52px;
+                    border-radius: 12px;
+                    color: white;
+                    font-size: 21.8px;
+                    font-weight: 700;
+                    @extend %flex-center;
+                }
+                h4{
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: #0F172A;
                 }
                 p{
-                    font-size: 15px;
+                    font-size: 16px;
                     font-weight: 400;
-                    color: #94A3B8;
+                    color: #475569;
                 }
-            }
-        }
-        section.sec_2{
-            background-color: variables.$primary-color;
+                a{
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: variables.$primary-color;
+                }
+           }       
+       }
+    }
+ }
+ footer{
+    background-color: #0B1120;
+    section.sec_1{
+        background-color: variables.$primary-color;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -342,8 +224,8 @@ body.index{
                 font-size: 16px;
                 font-weight: 700;
             }
-        }
-        section.sec_3{
+    }
+    section.sec_2{
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -429,10 +311,8 @@ body.index{
                font-size: 13px;
                font-weight: 400;
                color: #64748B;
-               padding: 20px 50px;
+               padding: 30px 80px;
             }
         }
-        
     }
-
 }

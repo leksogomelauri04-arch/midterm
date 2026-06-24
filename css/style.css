@@ -56,7 +56,7 @@ a {
   text-decoration: none;
 }
 
-body.about header div.h_logo div.logo, body.index header div.h_logo div.logo, body.index main section.sec_1 div.left div.small_text div.logo, body.index main section.sec_1 div.right div.bottom div.logo, body.index footer section.sec_3 div.footer_1 .f_logo div.logo, body.index footer section.sec_3 div.footer_1 div.icons div.icon {
+body.services header div.h_logo div.logo, body.services main section.sec_3 div.cards div.card div.logo, body.services footer section.sec_2 div.footer_1 .f_logo div.logo, body.services footer section.sec_2 div.footer_1 div.icons div.icon, body.about header div.h_logo div.logo, body.about main section.sec_4 div.cards div.card .icons div, body.about footer section.sec_1 div.right div, body.about footer section.sec_2 div.footer_1 .f_logo div.logo, body.about footer section.sec_2 div.footer_1 div.icons div.icon, body.index header div.h_logo div.logo, body.index main section.sec_1 div.left div.small_text div.logo, body.index main section.sec_1 div.right div.bottom div.logo, body.index footer section.sec_3 div.footer_1 .f_logo div.logo, body.index footer section.sec_3 div.footer_1 div.icons div.icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -458,11 +458,11 @@ body.index footer div hr {
   width: 90%;
   background-color: #1E293B;
 }
-body.index footer div p {
+body.index footer div p.footer_p {
   font-size: 13px;
   font-weight: 400;
   color: #64748B;
-  padding: 30px 70px;
+  padding: 20px 50px;
 }
 
 body.about {
@@ -574,6 +574,9 @@ body.about main section.sec_2 div.right {
   border-radius: 24px;
   background-color: #4F46E5;
 }
+body.about main section.sec_3 {
+  padding: 50px;
+}
 body.about main section.sec_3 div.text {
   display: flex;
   flex-direction: column;
@@ -638,6 +641,10 @@ body.about main section.sec_3 div.cards div.card a {
   font-weight: 600;
   color: #4F46E5;
 }
+body.about main section.sec_4 {
+  padding: 50px;
+  background-color: white;
+}
 body.about main section.sec_4 div.text {
   display: flex;
   flex-direction: column;
@@ -662,16 +669,280 @@ body.about main section.sec_4 div.cards {
   align-items: center;
 }
 body.about main section.sec_4 div.cards div.card {
-  background-color: white;
-  height: 210px;
+  background-color: #F8FAFC;
+  height: 310px;
   width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 18px;
+  padding: 20px;
+  gap: 20px;
+  text-align: center;
+}
+body.about main section.sec_4 div.cards div.card div.logo {
+  background-color: #4F46E5;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body.about main section.sec_4 div.cards div.card h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0F172A;
+}
+body.about main section.sec_4 div.cards div.card h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4F46E5;
+}
+body.about main section.sec_4 div.cards div.card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+}
+body.about main section.sec_4 div.cards div.card .icons {
+  display: flex;
+  gap: 10px;
+}
+body.about main section.sec_4 div.cards div.card .icons div {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #EEF2FF;
+  color: #4F46E5;
+  font-size: 13px;
+  font-weight: 700;
+}
+body.about footer {
+  background-color: #0B1120;
+}
+body.about footer section.sec_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body.about footer section.sec_1 div.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 80px 20px;
+}
+body.about footer section.sec_1 div.left h3 {
+  font-size: 42px;
+  font-weight: 800;
+  color: white;
+}
+body.about footer section.sec_1 div.left p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #CBD5E1;
+  line-height: 30px;
+}
+body.about footer section.sec_1 div.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+body.about footer section.sec_1 div.right div {
+  height: 106px;
+  width: 196px;
+  background-color: #1E293B;
+  border-radius: 24px;
+  flex-direction: column;
+}
+body.about footer section.sec_1 div.right div h3 {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+}
+body.about footer section.sec_1 div.right div p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.about footer section.sec_2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0B1120;
+}
+body.about footer section.sec_2 div.footer_1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+body.about footer section.sec_2 div.footer_1 .f_logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  gap: 5px;
+}
+body.about footer section.sec_2 div.footer_1 .f_logo div.logo {
+  height: 40px;
+  width: 40px;
+  background-color: #4F46E5;
+  border-radius: 12px;
+  color: white;
+  font-size: 16.8px;
+  font-weight: 700;
+}
+body.about footer section.sec_2 div.footer_1 .f_logo .text {
+  font-size: 22px;
+  font-weight: 800;
+  color: white;
+}
+body.about footer section.sec_2 div.footer_1 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.about footer section.sec_2 div.footer_1 div.icons {
+  display: flex;
+  justify-content: space-between;
+}
+body.about footer section.sec_2 div.footer_1 div.icons div.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #1E293B;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+body.about footer section.sec_2 div.contact h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+body.about footer section.sec_2 div.contact ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+body.about footer section.sec_2 div.contact ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.about footer div hr {
+  width: 90%;
+  background-color: #1E293B;
+}
+body.about footer div p.footer_p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #64748B;
+  padding: 30px 80px;
+}
+
+body.services {
+  margin: 0 auto;
+}
+body.services header {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1400px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+body.services header div.h_logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  gap: 5px;
+}
+body.services header div.h_logo div.logo {
+  height: 40px;
+  width: 40px;
+  background-color: #4F46E5;
+  border-radius: 12px;
+  color: white;
+  font-size: 16.8px;
+  font-weight: 700;
+}
+body.services header nav ul {
+  display: flex;
+  gap: 32px;
+}
+body.services header nav ul a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #475569;
+}
+body.services header button {
+  width: 146px;
+  height: 49px;
+  background-color: #4F46E5;
+  color: white;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+body.services main {
+  background-color: #F8FAFC;
+}
+body.services main section.sec_1 div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+}
+body.services main section.sec_1 div.text h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+body.services main section.sec_1 div.text h1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: black;
+}
+body.services main section.sec_1 div.text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+}
+body.services main section.sec_2 {
+  padding: 60px;
+  background-color: white;
+}
+body.services main section.sec_2 div.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+body.services main section.sec_2 div.cards div.card {
+  background-color: #F8FAFC;
+  height: 210px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   border-radius: 18px;
   padding: 20px;
   gap: 30px;
 }
-body.about main section.sec_4 div.cards div.card div.logo {
+body.services main section.sec_2 div.cards div.card div.logo {
   background-color: #EEF2FF;
   width: 52px;
   height: 52px;
@@ -682,18 +953,192 @@ body.about main section.sec_4 div.cards div.card div.logo {
   justify-content: center;
   align-items: center;
 }
-body.about main section.sec_4 div.cards div.card h4 {
+body.services main section.sec_2 div.cards div.card h4 {
   font-size: 22px;
   font-weight: 700;
   color: #0F172A;
 }
-body.about main section.sec_4 div.cards div.card p {
+body.services main section.sec_2 div.cards div.card p {
   font-size: 16px;
   font-weight: 400;
   color: #475569;
 }
-body.about main section.sec_4 div.cards div.card a {
+body.services main section.sec_2 div.cards div.card a {
   font-size: 15px;
   font-weight: 600;
   color: #4F46E5;
+}
+body.services main section.sec_3 {
+  padding: 50px;
+}
+body.services main section.sec_3 div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+}
+body.services main section.sec_3 div.text h5 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+body.services main section.sec_3 div.text h3 {
+  font-size: 38px;
+  font-weight: 800;
+  color: black;
+}
+body.services main section.sec_3 div.text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+}
+body.services main section.sec_3 div.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body.services main section.sec_3 div.cards div.card {
+  background-color: white;
+  height: 180px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  padding: 20px;
+  gap: 30px;
+}
+body.services main section.sec_3 div.cards div.card div.logo {
+  background-color: #4F46E5;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  color: white;
+  font-size: 21.8px;
+  font-weight: 700;
+}
+body.services main section.sec_3 div.cards div.card h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0F172A;
+}
+body.services main section.sec_3 div.cards div.card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+}
+body.services main section.sec_3 div.cards div.card a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #4F46E5;
+}
+body.services footer {
+  background-color: #0B1120;
+}
+body.services footer section.sec_1 {
+  background-color: #4F46E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+body.services footer section.sec_1 h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+body.services footer section.sec_1 p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #E0E7FF;
+}
+body.services footer section.sec_1 button {
+  height: 51px;
+  width: 159px;
+  border-radius: 10px;
+  background-color: white;
+  color: #4F46E5;
+  font-size: 16px;
+  font-weight: 700;
+}
+body.services footer section.sec_2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0B1120;
+}
+body.services footer section.sec_2 div.footer_1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+body.services footer section.sec_2 div.footer_1 .f_logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  gap: 5px;
+}
+body.services footer section.sec_2 div.footer_1 .f_logo div.logo {
+  height: 40px;
+  width: 40px;
+  background-color: #4F46E5;
+  border-radius: 12px;
+  color: white;
+  font-size: 16.8px;
+  font-weight: 700;
+}
+body.services footer section.sec_2 div.footer_1 .f_logo .text {
+  font-size: 22px;
+  font-weight: 800;
+  color: white;
+}
+body.services footer section.sec_2 div.footer_1 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.services footer section.sec_2 div.footer_1 div.icons {
+  display: flex;
+  justify-content: space-between;
+}
+body.services footer section.sec_2 div.footer_1 div.icons div.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #1E293B;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+body.services footer section.sec_2 div.contact h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+body.services footer section.sec_2 div.contact ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+body.services footer section.sec_2 div.contact ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.services footer div hr {
+  width: 90%;
+  background-color: #1E293B;
+}
+body.services footer div p.footer_p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #64748B;
+  padding: 30px 80px;
 }/*# sourceMappingURL=style.css.map */
