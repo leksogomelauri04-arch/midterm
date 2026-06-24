@@ -56,7 +56,7 @@ a {
   text-decoration: none;
 }
 
-body header div.h_logo div.logo, body main div.left div.small_text div.logo, body main div.right div.bottom div.logo {
+body header div.h_logo div.logo, body main section.sec_1 div.left div.small_text div.logo, body main section.sec_1 div.right div.bottom div.logo, body footer section.sec_3 div.footer_1 .f_logo div.logo, body footer section.sec_3 div.footer_1 div.icons div.icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,17 +112,17 @@ body header button {
 body main {
   background-color: #F8FAFC;
 }
-body main .sec_1 {
+body main section.sec_1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-body main div.left {
+body main section.sec_1 div.left {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-body main div.left div.small_text {
+body main section.sec_1 div.left div.small_text {
   height: 34px;
   width: 275px;
   background-color: #EEF2FF;
@@ -132,12 +132,12 @@ body main div.left div.small_text {
   justify-content: space-between;
   padding: 0px 10px;
 }
-body main div.left div.small_text p {
+body main section.sec_1 div.left div.small_text p {
   color: #4F46E5;
   font-size: 14px;
   font-weight: 700;
 }
-body main div.left div.small_text div.logo {
+body main section.sec_1 div.left div.small_text div.logo {
   height: 18px;
   width: 18px;
   background-color: #4F46E5;
@@ -145,23 +145,23 @@ body main div.left div.small_text div.logo {
   font-size: 7.56px;
   color: white;
 }
-body main div.left h1 {
+body main section.sec_1 div.left h1 {
   font-size: 54px;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
 }
-body main div.left p {
+body main section.sec_1 div.left p {
   font-family: "Roboto", sans-serif;
   color: #475569;
   font-size: 18px;
   font-weight: 400;
 }
-body main div.left div.btns {
+body main section.sec_1 div.left div.btns {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-body main div.left div.btns .start {
+body main section.sec_1 div.left div.btns .start {
   height: 49px;
   width: 167px;
   border-radius: 10px;
@@ -170,7 +170,7 @@ body main div.left div.btns .start {
   color: white;
   background-color: #4F46E5;
 }
-body main div.left div.btns .view {
+body main section.sec_1 div.left div.btns .view {
   height: 49px;
   width: 167px;
   border-radius: 10px;
@@ -179,7 +179,7 @@ body main div.left div.btns .view {
   background-color: white;
   color: black;
 }
-body main div.right {
+body main section.sec_1 div.right {
   height: 316px;
   width: 560px;
   background-color: #4F46E5;
@@ -189,7 +189,7 @@ body main div.right {
   justify-content: center;
   align-items: center;
 }
-body main div.right div.top {
+body main section.sec_1 div.right div.top {
   height: 160px;
   width: 340px;
   background-color: white;
@@ -200,21 +200,21 @@ body main div.right div.top {
   justify-content: space-around;
   padding-left: 20px;
 }
-body main div.right div.top p.gray {
+body main section.sec_1 div.right div.top p.gray {
   font-size: 12px;
   color: #94A3B8;
   font-weight: 400;
 }
-body main div.right div.top h3 {
+body main section.sec_1 div.right div.top h3 {
   font-size: 30px;
   font-weight: 800;
 }
-body main div.right div.top p.green {
+body main section.sec_1 div.right div.top p.green {
   font-size: 13px;
   font-weight: 600;
   color: #16A34A;
 }
-body main div.right div.bottom {
+body main section.sec_1 div.right div.bottom {
   height: 84px;
   width: 340px;
   background-color: white;
@@ -224,20 +224,243 @@ body main div.right div.bottom {
   align-items: center;
   gap: 10px;
 }
-body main div.right div.bottom div.logo {
+body main section.sec_1 div.right div.bottom div.logo {
   height: 44px;
   width: 44px;
   border-radius: 12px;
   background-color: #EEF2FF;
   color: #4F46E5;
 }
-body main div.right div h5 {
+body main section.sec_1 div.right div h5 {
   font-size: 15px;
   font-weight: 600;
   padding: 10px 0px;
 }
-body main div.right div p {
+body main section.sec_1 div.right div p {
   font-size: 12px;
   color: #94A3B8;
   font-weight: 400;
+}
+body main section.sec_2 {
+  margin-top: 80px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main section.sec_2 p {
+  font-size: 13px;
+  font-weight: 700;
+  color: #94A3B8;
+  padding: 30px;
+}
+body main section.sec_2 nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+body main section.sec_2 nav ul a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #E2E8F0;
+}
+body main section.sec_3 div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+}
+body main section.sec_3 div.text h5 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+body main section.sec_3 div.text h3 {
+  font-size: 38px;
+  font-weight: 800;
+  color: black;
+}
+body main section.sec_3 div.text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+}
+body main section.sec_3 div.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body main section.sec_3 div.cards div.card {
+  background-color: white;
+  height: 210px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  padding: 20px;
+  gap: 30px;
+}
+body main section.sec_3 div.cards div.card div.logo {
+  background-color: #EEF2FF;
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  color: #4F46E5;
+  font-size: 21.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main section.sec_3 div.cards div.card h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0F172A;
+}
+body main section.sec_3 div.cards div.card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+}
+body main section.sec_3 div.cards div.card a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #4F46E5;
+}
+body footer {
+  margin-top: 100px;
+  background-color: #0B1120;
+}
+body footer section.sec_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0B1120;
+}
+body footer section.sec_1 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+body footer section.sec_1 div h3 {
+  font-size: 44px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+body footer section.sec_1 div p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body footer section.sec_2 {
+  background-color: #4F46E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+body footer section.sec_2 h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+body footer section.sec_2 p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #E0E7FF;
+}
+body footer section.sec_2 button {
+  height: 51px;
+  width: 159px;
+  border-radius: 10px;
+  background-color: white;
+  color: #4F46E5;
+  font-size: 16px;
+  font-weight: 700;
+}
+body footer section.sec_3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0B1120;
+}
+body footer section.sec_3 div.footer_1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+body footer section.sec_3 div.footer_1 .f_logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  gap: 5px;
+}
+body footer section.sec_3 div.footer_1 .f_logo div.logo {
+  height: 40px;
+  width: 40px;
+  background-color: #4F46E5;
+  border-radius: 12px;
+  color: white;
+  font-size: 16.8px;
+  font-weight: 700;
+}
+body footer section.sec_3 div.footer_1 .f_logo .text {
+  font-size: 22px;
+  font-weight: 800;
+  color: white;
+}
+body footer section.sec_3 div.footer_1 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body footer section.sec_3 div.footer_1 div.icons {
+  display: flex;
+  justify-content: space-between;
+}
+body footer section.sec_3 div.footer_1 div.icons div.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #1E293B;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+body footer section.sec_3 div.contact h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+body footer section.sec_3 div.contact ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+body footer section.sec_3 div.contact ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body footer div hr {
+  width: 90%;
+  background-color: #1E293B;
+}
+body footer div p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #64748B;
+  padding: 30px 70px;
 }/*# sourceMappingURL=style.css.map */
