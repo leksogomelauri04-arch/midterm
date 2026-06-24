@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body header div.h_logo div.logo, body main div.left div.small_text div.logo, body main div.right div.bottom div.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0 auto;
+}
+body header {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1400px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+body header div.h_logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  gap: 5px;
+}
+body header div.h_logo div.logo {
+  height: 40px;
+  width: 40px;
+  background-color: #4F46E5;
+  border-radius: 12px;
+  color: white;
+  font-size: 16.8px;
+  font-weight: 700;
+}
+body header nav ul {
+  display: flex;
+  gap: 32px;
+}
+body header nav ul a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #475569;
+}
+body header button {
+  width: 146px;
+  height: 49px;
+  background-color: #4F46E5;
+  color: white;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+body main {
+  background-color: #F8FAFC;
+}
+body main .sec_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body main div.left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+body main div.left div.small_text {
+  height: 34px;
+  width: 275px;
+  background-color: #EEF2FF;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+body main div.left div.small_text p {
+  color: #4F46E5;
+  font-size: 14px;
+  font-weight: 700;
+}
+body main div.left div.small_text div.logo {
+  height: 18px;
+  width: 18px;
+  background-color: #4F46E5;
+  border-radius: 50%;
+  font-size: 7.56px;
+  color: white;
+}
+body main div.left h1 {
+  font-size: 54px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+body main div.left p {
+  font-family: "Roboto", sans-serif;
+  color: #475569;
+  font-size: 18px;
+  font-weight: 400;
+}
+body main div.left div.btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body main div.left div.btns .start {
+  height: 49px;
+  width: 167px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #4F46E5;
+}
+body main div.left div.btns .view {
+  height: 49px;
+  width: 167px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+}
+body main div.right {
+  height: 316px;
+  width: 560px;
+  background-color: #4F46E5;
+  border-radius: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main div.right div.top {
+  height: 160px;
+  width: 340px;
+  background-color: white;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+body main div.right div.top p.gray {
+  font-size: 12px;
+  color: #94A3B8;
+  font-weight: 400;
+}
+body main div.right div.top h3 {
+  font-size: 30px;
+  font-weight: 800;
+}
+body main div.right div.top p.green {
+  font-size: 13px;
+  font-weight: 600;
+  color: #16A34A;
+}
+body main div.right div.bottom {
+  height: 84px;
+  width: 340px;
+  background-color: white;
+  border-radius: 16px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body main div.right div.bottom div.logo {
+  height: 44px;
+  width: 44px;
+  border-radius: 12px;
+  background-color: #EEF2FF;
+  color: #4F46E5;
+}
+body main div.right div h5 {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+body main div.right div p {
+  font-size: 12px;
+  color: #94A3B8;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
