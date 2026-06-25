@@ -56,7 +56,7 @@ a {
   text-decoration: none;
 }
 
-body.services header div.h_logo div.logo, body.services main section.sec_3 div.cards div.card div.logo, body.services footer section.sec_2 div.footer_1 .f_logo div.logo, body.services footer section.sec_2 div.footer_1 div.icons div.icon, body.about header div.h_logo div.logo, body.about main section.sec_4 div.cards div.card .icons div, body.about footer section.sec_1 div.right div, body.about footer section.sec_2 div.footer_1 .f_logo div.logo, body.about footer section.sec_2 div.footer_1 div.icons div.icon, body.index header div.h_logo div.logo, body.index main section.sec_1 div.left div.small_text div.logo, body.index main section.sec_1 div.right div.bottom div.logo, body.index footer section.sec_3 div.footer_1 .f_logo div.logo, body.index footer section.sec_3 div.footer_1 div.icons div.icon {
+body.contact header div.h_logo div.logo, body.contact main section.sec_2 div.left div.mid div div.icon, body.contact main section.sec_2 div.left div.ft div.icons a, body.contact footer section.sec_1 div.footer_1 .f_logo div.logo, body.contact footer section.sec_1 div.footer_1 div.icons div.icon, body.news header div.h_logo div.logo, body.news main section.sec_2 div.main div.right div.ft div.logo, body.news footer section.sec_2 div.footer_1 .f_logo div.logo, body.news footer section.sec_2 div.footer_1 div.icons div.icon, body.services header div.h_logo div.logo, body.services main section.sec_3 div.cards div.card div.logo, body.services footer section.sec_2 div.footer_1 .f_logo div.logo, body.services footer section.sec_2 div.footer_1 div.icons div.icon, body.about header div.h_logo div.logo, body.about main section.sec_4 div.cards div.card .icons div, body.about footer section.sec_1 div.right div, body.about footer section.sec_2 div.footer_1 .f_logo div.logo, body.about footer section.sec_2 div.footer_1 div.icons div.icon, body.index header div.h_logo div.logo, body.index main section.sec_1 div.left div.small_text div.logo, body.index main section.sec_1 div.right div.bottom div.logo, body.index footer section.sec_3 div.footer_1 .f_logo div.logo, body.index footer section.sec_3 div.footer_1 div.icons div.icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1137,6 +1137,734 @@ body.services footer div hr {
   background-color: #1E293B;
 }
 body.services footer div p.footer_p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #64748B;
+  padding: 30px 80px;
+}
+
+body.news {
+  margin: 0 auto;
+}
+body.news header {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1400px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+body.news header div.h_logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  gap: 5px;
+}
+body.news header div.h_logo div.logo {
+  height: 40px;
+  width: 40px;
+  background-color: #4F46E5;
+  border-radius: 12px;
+  color: white;
+  font-size: 16.8px;
+  font-weight: 700;
+}
+body.news header nav ul {
+  display: flex;
+  gap: 32px;
+}
+body.news header nav ul a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #475569;
+}
+body.news header button {
+  width: 146px;
+  height: 49px;
+  background-color: #4F46E5;
+  color: white;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+body.news main {
+  background-color: #F8FAFC;
+}
+body.news main section.sec_1 div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+}
+body.news main section.sec_1 div.text h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+body.news main section.sec_1 div.text h1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: black;
+}
+body.news main section.sec_1 div.text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+}
+body.news main section.sec_1 div.text div.btns {
+  display: flex;
+  gap: 30px;
+}
+body.news main section.sec_1 div.text div.btns div {
+  background-color: white;
+  border-radius: 100px;
+  border: solid 1px #E2E8F0;
+  padding: 10px 20px;
+}
+body.news main section.sec_1 div.text div.btns div a {
+  color: #475569;
+}
+body.news main section.sec_2 {
+  margin: 0 auto;
+  background-color: white;
+}
+body.news main section.sec_2 div.main {
+  display: flex;
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+body.news main section.sec_2 div.main div.left {
+  padding: 170px 270px;
+  background-color: #4F46E5;
+  border-radius: 20px 0 0 20px;
+}
+body.news main section.sec_2 div.main div.right {
+  background-color: #F8FAFC;
+  border-radius: 0 20px 20px 0;
+  padding: 50px;
+}
+body.news main section.sec_2 div.main div.right div.hd {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+body.news main section.sec_2 div.main div.right div.hd div.product {
+  background-color: #EEF2FF;
+  border-radius: 100px;
+  padding: 6px 12px;
+}
+body.news main section.sec_2 div.main div.right div.hd div.product p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+body.news main section.sec_2 div.main div.right div.hd div.text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.news main section.sec_2 div.main div.right div.main_text h2 {
+  font-size: 34px;
+  font-weight: 800;
+  color: #0F172A;
+  padding: 20px 0px;
+}
+body.news main section.sec_2 div.main div.right div.main_text p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #475569;
+  line-height: 20px;
+}
+body.news main section.sec_2 div.main div.right div.ft {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px;
+}
+body.news main section.sec_2 div.main div.right div.ft div.logo {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background-color: #4F46E5;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+body.news main section.sec_2 div.main div.right div.ft div.text h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0F172A;
+}
+body.news main section.sec_2 div.main div.right div.ft div.text p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.news main section.sec_3 {
+  padding: 0px 0px 80px 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+body.news main section.sec_3 div.cards {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+}
+body.news main section.sec_3 div.cards div.card {
+  border-radius: 20px;
+  height: 330px;
+  width: 350px;
+  box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.75);
+}
+body.news main section.sec_3 div.cards div.card div.img {
+  background-color: #4F46E5;
+  padding: 80px 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+body.news main section.sec_3 div.cards div.card div.hd {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+body.news main section.sec_3 div.cards div.card div.hd h5 {
+  background-color: #EEF2FF;
+  border-radius: 100px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+body.news main section.sec_3 div.cards div.card div.text {
+  padding: 10px;
+}
+body.news main section.sec_3 div.cards div.card div.text h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0F172A;
+}
+body.news main section.sec_3 div.cards div.card div.text p {
+  padding: 10px 0px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #475569;
+}
+body.news main section.sec_3 div.cards div.card a {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4F46E5;
+}
+body.news main section.sec_3 button {
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #eaebed;
+  font-size: 16px;
+  font-weight: 600;
+}
+body.news footer {
+  background-color: #0B1120;
+}
+body.news footer section.sec_1 {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+body.news footer section.sec_1 h2 {
+  font-size: 34px;
+  font-weight: 800;
+  color: white;
+}
+body.news footer section.sec_1 p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.news footer section.sec_1 form {
+  display: flex;
+  gap: 20px;
+}
+body.news footer section.sec_1 form input {
+  padding: 10px 30px;
+  background-color: #1E293B;
+  border-radius: 10px;
+}
+body.news footer section.sec_1 form button {
+  background-color: #4F46E5;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+}
+body.news footer section.sec_2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0B1120;
+}
+body.news footer section.sec_2 div.footer_1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+body.news footer section.sec_2 div.footer_1 .f_logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  gap: 5px;
+}
+body.news footer section.sec_2 div.footer_1 .f_logo div.logo {
+  height: 40px;
+  width: 40px;
+  background-color: #4F46E5;
+  border-radius: 12px;
+  color: white;
+  font-size: 16.8px;
+  font-weight: 700;
+}
+body.news footer section.sec_2 div.footer_1 .f_logo .text {
+  font-size: 22px;
+  font-weight: 800;
+  color: white;
+}
+body.news footer section.sec_2 div.footer_1 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.news footer section.sec_2 div.footer_1 div.icons {
+  display: flex;
+  justify-content: space-between;
+}
+body.news footer section.sec_2 div.footer_1 div.icons div.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #1E293B;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+body.news footer section.sec_2 div.contact h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+body.news footer section.sec_2 div.contact ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+body.news footer section.sec_2 div.contact ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.news footer div hr {
+  width: 90%;
+  background-color: #1E293B;
+}
+body.news footer div p.footer_p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #64748B;
+  padding: 30px 80px;
+}
+
+body.contact {
+  margin: 0 auto;
+}
+body.contact header {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1400px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+body.contact header div.h_logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  gap: 5px;
+}
+body.contact header div.h_logo div.logo {
+  height: 40px;
+  width: 40px;
+  background-color: #4F46E5;
+  border-radius: 12px;
+  color: white;
+  font-size: 16.8px;
+  font-weight: 700;
+}
+body.contact header nav ul {
+  display: flex;
+  gap: 32px;
+}
+body.contact header nav ul a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #475569;
+}
+body.contact header button {
+  width: 146px;
+  height: 49px;
+  background-color: #4F46E5;
+  color: white;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+body.contact main section.sec_1 {
+  background-color: #F8FAFC;
+}
+body.contact main section.sec_1 div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+}
+body.contact main section.sec_1 div.text h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #4F46E5;
+}
+body.contact main section.sec_1 div.text h1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: black;
+}
+body.contact main section.sec_1 div.text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+}
+body.contact main section.sec_2 {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+body.contact main section.sec_2 div.left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+body.contact main section.sec_2 div.left div.hd {
+  box-shadow: 0px 0px 54px -24px rgba(0, 0, 0, 0.86);
+  -webkit-box-shadow: 0px 0px 54px -24px rgba(0, 0, 0, 0.86);
+  -moz-box-shadow: 0px 0px 54px -24px rgba(0, 0, 0, 0.86);
+  border-radius: 10px;
+  background-color: #EEF2FF;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+body.contact main section.sec_2 div.left div.hd h3 {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0F172A;
+}
+body.contact main section.sec_2 div.left div.hd div.text div {
+  display: flex;
+  gap: 50px;
+  padding: 10px;
+}
+body.contact main section.sec_2 div.left div.hd div.text div p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #475569;
+}
+body.contact main section.sec_2 div.left div.hd div.text div p.icon {
+  padding-left: 10px;
+  color: green;
+}
+body.contact main section.sec_2 div.left div.hd hr {
+  color: #0F172A;
+  opacity: 30%;
+  width: 95%;
+}
+body.contact main section.sec_2 div.left div.hd h4 {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0F172A;
+}
+body.contact main section.sec_2 div.left div.hd div.ft_text {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+body.contact main section.sec_2 div.left div.hd div.ft_text div.days {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #475569;
+  font-size: 15px;
+  font-weight: 400;
+}
+body.contact main section.sec_2 div.left div.hd div.ft_text div.clocks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+}
+body.contact main section.sec_2 div.left div.mid {
+  box-shadow: 0px 0px 54px -24px rgba(0, 0, 0, 0.86);
+  -webkit-box-shadow: 0px 0px 54px -24px rgba(0, 0, 0, 0.86);
+  -moz-box-shadow: 0px 0px 54px -24px rgba(0, 0, 0, 0.86);
+  border-radius: 10px;
+  background-color: #f5f7fb;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+body.contact main section.sec_2 div.left div.mid h4 {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0F172A;
+}
+body.contact main section.sec_2 div.left div.mid div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+body.contact main section.sec_2 div.left div.mid div div.icon {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background-color: #EEF2FF;
+  color: #4F46E5;
+}
+body.contact main section.sec_2 div.left div.ft {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body.contact main section.sec_2 div.left div.ft p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0F172A;
+}
+body.contact main section.sec_2 div.left div.ft div.icons {
+  display: flex;
+  gap: 10px;
+}
+body.contact main section.sec_2 div.left div.ft div.icons a {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #EEF2FF;
+  color: #4F46E5;
+}
+body.contact main section.sec_2 form {
+  border-radius: 20px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 0px 40px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 40px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 40px -9px rgba(0, 0, 0, 0.75);
+}
+body.contact main section.sec_2 form h2 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #0F172A;
+  padding: 30px 0px 0px 20px;
+}
+body.contact main section.sec_2 form div.inputs {
+  margin: 0 auto;
+  padding: 20px;
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body.contact main section.sec_2 form div.inputs div {
+  flex: 1 1 300px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body.contact main section.sec_2 form div.inputs div label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0F172A;
+}
+body.contact main section.sec_2 form div.inputs div input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dfe6ef;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+body.contact main section.sec_2 form div.full_width {
+  margin: 0 auto;
+  padding: 20px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+body.contact main section.sec_2 form div.full_width div {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body.contact main section.sec_2 form div.full_width div label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0F172A;
+}
+body.contact main section.sec_2 form div.full_width div input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dfe6ef;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+body.contact main section.sec_2 form div.full_width div #message {
+  height: 100px;
+}
+body.contact main section.sec_2 div.form_footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body.contact main section.sec_2 div.form_footer div {
+  display: flex;
+  gap: 20px;
+}
+body.contact main section.sec_2 div.form_footer div label {
+  display: flex;
+}
+body.contact main section.sec_2 div.form_footer button {
+  background-color: #4F46E5;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+body.contact footer {
+  background-color: #0B1120;
+}
+body.contact footer section.sec_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0B1120;
+}
+body.contact footer section.sec_1 div.footer_1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+body.contact footer section.sec_1 div.footer_1 .f_logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  gap: 5px;
+}
+body.contact footer section.sec_1 div.footer_1 .f_logo div.logo {
+  height: 40px;
+  width: 40px;
+  background-color: #4F46E5;
+  border-radius: 12px;
+  color: white;
+  font-size: 16.8px;
+  font-weight: 700;
+}
+body.contact footer section.sec_1 div.footer_1 .f_logo .text {
+  font-size: 22px;
+  font-weight: 800;
+  color: white;
+}
+body.contact footer section.sec_1 div.footer_1 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.contact footer section.sec_1 div.footer_1 div.icons {
+  display: flex;
+  justify-content: space-between;
+}
+body.contact footer section.sec_1 div.footer_1 div.icons div.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #1E293B;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+body.contact footer section.sec_1 div.contact h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+body.contact footer section.sec_1 div.contact ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+body.contact footer section.sec_1 div.contact ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+body.contact footer div hr {
+  width: 90%;
+  background-color: #1E293B;
+}
+body.contact footer div p.footer_p {
   font-size: 13px;
   font-weight: 400;
   color: #64748B;
