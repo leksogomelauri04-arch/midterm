@@ -13,12 +13,16 @@ body.services{
         justify-content: space-between;
         align-items: center;
         padding: 15px;
+        details{
+            display: none;
+        }
         div.h_logo{
             display: flex;
             align-items: center;
             font-size: 22px;
             font-weight: 800;
             gap: 5px;
+            cursor: pointer;
             div.logo{
                 height:40px;
                 width: 40px;
@@ -38,6 +42,10 @@ body.services{
                     font-family: variables.$inter-font;
                     font-size: 15px;
                     color: #475569;
+                    &:hover{
+                        color: variables.$primary-color;
+                        font-size: 16px;
+                    }
 
                 }
             }
@@ -50,6 +58,13 @@ body.services{
             border-radius: 10px;
             font-family: variables.$inter-font;
             font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            &:hover{
+                color: rgb(13, 13, 119);
+            }
 
         }
     }
@@ -98,6 +113,15 @@ body.services{
                 border-radius: 18px;
                 padding: 20px;
                 gap: 30px;
+                cursor: pointer;
+                &:hover{
+                    height: 211px;
+                    width: 351px;
+                    box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                }
+                
                 div.logo{
                     background-color: #EEF2FF;
                     width:52px ;
@@ -166,6 +190,14 @@ body.services{
                 border-radius: 18px;
                 padding: 20px;
                 gap: 30px;
+                cursor: pointer;
+                &:hover{
+                    height:181px;
+                    width: 251px;
+                    box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                }
                 div.logo{
                     background-color: variables.$primary-color;
                     width:52px ;
@@ -223,6 +255,14 @@ body.services{
                 color: variables.$primary-color;
                 font-size: 16px;
                 font-weight: 700;
+                cursor: pointer;
+                &:hover{
+                    height:52px;
+                    width: 160px;
+                    box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                }
             }
     }
     section.sec_2{
@@ -241,6 +281,7 @@ body.services{
                     font-size: 22px;
                     font-weight: 800;
                     gap: 5px;
+                    cursor: pointer;
                     div.logo{
                         height:40px;
                         width: 40px;
@@ -250,6 +291,7 @@ body.services{
                         color: white;
                         font-size: 16.8px;
                         font-weight: 700;
+                        
                         }
                     .text{
                         font-size: 22px;
@@ -273,7 +315,8 @@ body.services{
                         color: white;
                         font-size: 15px;
                         font-weight: 700;
-                        @extend %flex-center                   
+                        @extend %flex-center; 
+                        cursor: pointer;                  
                     }
                 }
 

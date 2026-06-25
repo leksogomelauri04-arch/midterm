@@ -14,12 +14,16 @@ body.about{
         justify-content: space-between;
         align-items: center;
         padding: 15px;
+        details{
+            display: none;
+        }
         div.h_logo{
             display: flex;
             align-items: center;
             font-size: 22px;
             font-weight: 800;
             gap: 5px;
+            cursor: pointer;
             div.logo{
                 height:40px;
                 width: 40px;
@@ -39,6 +43,10 @@ body.about{
                     font-family: variables.$inter-font;
                     font-size: 15px;
                     color: #475569;
+                    &:hover{
+                        color: variables.$primary-color;
+                        font-size: 16px;
+                    }
 
                 }
             }
@@ -51,6 +59,13 @@ body.about{
             border-radius: 10px;
             font-family: variables.$inter-font;
             font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            &:hover{
+                color: rgb(13, 13, 119);
+            }
 
         }
     }
@@ -115,6 +130,10 @@ body.about{
                 width: 540px;
                 border-radius: 24px;
                 background-color: variables.$primary-color;
+                box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+
             }
         }
         section.sec_3{
@@ -155,6 +174,14 @@ body.about{
                 border-radius: 18px;
                 padding: 20px;
                 gap: 30px;
+                cursor: pointer;
+                &:hover{
+                    height: 181px;
+                    width: 251px;
+                    box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                }
                 div.logo{
                     background-color: #EEF2FF;
                     width:52px ;
@@ -221,6 +248,14 @@ body.about{
                 padding: 20px;
                 gap: 20px;
                 text-align: center;
+                cursor: pointer;
+                &:hover{
+                    height: 311px;
+                    width: 371px;
+                    box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                }
                 div.logo{
                     background-color: variables.$primary-color;
                     width:120px ;
@@ -331,6 +366,7 @@ body.about{
                     font-size: 22px;
                     font-weight: 800;
                     gap: 5px;
+                    cursor: pointer;
                     div.logo{
                         height:40px;
                         width: 40px;
@@ -363,7 +399,8 @@ body.about{
                         color: white;
                         font-size: 15px;
                         font-weight: 700;
-                        @extend %flex-center                   
+                        @extend %flex-center;
+                        cursor: pointer;                 
                     }
                 }
 

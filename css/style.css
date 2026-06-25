@@ -75,12 +75,16 @@ body.index header {
   align-items: center;
   padding: 15px;
 }
+body.index header details {
+  display: none;
+}
 body.index header div.h_logo {
   display: flex;
   align-items: center;
   font-size: 22px;
   font-weight: 800;
   gap: 5px;
+  cursor: pointer;
 }
 body.index header div.h_logo div.logo {
   height: 40px;
@@ -100,6 +104,10 @@ body.index header nav ul a {
   font-size: 15px;
   color: #475569;
 }
+body.index header nav ul a:hover {
+  color: #4F46E5;
+  font-size: 16px;
+}
 body.index header button {
   width: 146px;
   height: 49px;
@@ -108,6 +116,13 @@ body.index header button {
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+}
+body.index header button:hover {
+  color: rgb(13, 13, 119);
 }
 body.index main {
   background-color: #F8FAFC;
@@ -170,6 +185,11 @@ body.index main section.sec_1 div.left div.btns .start {
   color: white;
   background-color: #4F46E5;
 }
+body.index main section.sec_1 div.left div.btns .start:hover {
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+}
 body.index main section.sec_1 div.left div.btns .view {
   height: 49px;
   width: 167px;
@@ -178,6 +198,11 @@ body.index main section.sec_1 div.left div.btns .view {
   font-weight: 600;
   background-color: white;
   color: black;
+}
+body.index main section.sec_1 div.left div.btns .view:hover {
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
 }
 body.index main section.sec_1 div.right {
   height: 316px;
@@ -267,6 +292,9 @@ body.index main section.sec_2 nav ul a {
   font-weight: 700;
   color: #E2E8F0;
 }
+body.index main section.sec_2 nav ul a:hover {
+  color: #7a7f8c;
+}
 body.index main section.sec_3 div.text {
   display: flex;
   flex-direction: column;
@@ -304,6 +332,14 @@ body.index main section.sec_3 div.cards div.card {
   border-radius: 18px;
   padding: 20px;
   gap: 30px;
+  cursor: pointer;
+}
+body.index main section.sec_3 div.cards div.card:hover {
+  height: 211px;
+  width: 371px;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
 }
 body.index main section.sec_3 div.cards div.card div.logo {
   background-color: #EEF2FF;
@@ -385,6 +421,12 @@ body.index footer section.sec_2 button {
   color: #4F46E5;
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
+}
+body.index footer section.sec_2 button:hover {
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
 }
 body.index footer section.sec_3 {
   display: flex;
@@ -404,6 +446,7 @@ body.index footer section.sec_3 div.footer_1 .f_logo {
   font-size: 22px;
   font-weight: 800;
   gap: 5px;
+  cursor: pointer;
 }
 body.index footer section.sec_3 div.footer_1 .f_logo div.logo {
   height: 40px;
@@ -427,6 +470,7 @@ body.index footer section.sec_3 div.footer_1 p {
 body.index footer section.sec_3 div.footer_1 div.icons {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 body.index footer section.sec_3 div.footer_1 div.icons div.icon {
   height: 40px;
@@ -478,12 +522,16 @@ body.about header {
   align-items: center;
   padding: 15px;
 }
+body.about header details {
+  display: none;
+}
 body.about header div.h_logo {
   display: flex;
   align-items: center;
   font-size: 22px;
   font-weight: 800;
   gap: 5px;
+  cursor: pointer;
 }
 body.about header div.h_logo div.logo {
   height: 40px;
@@ -503,6 +551,10 @@ body.about header nav ul a {
   font-size: 15px;
   color: #475569;
 }
+body.about header nav ul a:hover {
+  color: #4F46E5;
+  font-size: 16px;
+}
 body.about header button {
   width: 146px;
   height: 49px;
@@ -511,6 +563,13 @@ body.about header button {
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+}
+body.about header button:hover {
+  color: rgb(13, 13, 119);
 }
 body.about main {
   background-color: #F8FAFC;
@@ -573,6 +632,9 @@ body.about main section.sec_2 div.right {
   width: 540px;
   border-radius: 24px;
   background-color: #4F46E5;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
 }
 body.about main section.sec_3 {
   padding: 50px;
@@ -614,6 +676,14 @@ body.about main section.sec_3 div.cards div.card {
   border-radius: 18px;
   padding: 20px;
   gap: 30px;
+  cursor: pointer;
+}
+body.about main section.sec_3 div.cards div.card:hover {
+  height: 181px;
+  width: 251px;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
 }
 body.about main section.sec_3 div.cards div.card div.logo {
   background-color: #EEF2FF;
@@ -680,6 +750,14 @@ body.about main section.sec_4 div.cards div.card {
   padding: 20px;
   gap: 20px;
   text-align: center;
+  cursor: pointer;
+}
+body.about main section.sec_4 div.cards div.card:hover {
+  height: 311px;
+  width: 371px;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
 }
 body.about main section.sec_4 div.cards div.card div.logo {
   background-color: #4F46E5;
@@ -787,6 +865,7 @@ body.about footer section.sec_2 div.footer_1 .f_logo {
   font-size: 22px;
   font-weight: 800;
   gap: 5px;
+  cursor: pointer;
 }
 body.about footer section.sec_2 div.footer_1 .f_logo div.logo {
   height: 40px;
@@ -819,6 +898,7 @@ body.about footer section.sec_2 div.footer_1 div.icons div.icon {
   color: white;
   font-size: 15px;
   font-weight: 700;
+  cursor: pointer;
 }
 body.about footer section.sec_2 div.contact h4 {
   font-size: 15px;
@@ -861,12 +941,16 @@ body.services header {
   align-items: center;
   padding: 15px;
 }
+body.services header details {
+  display: none;
+}
 body.services header div.h_logo {
   display: flex;
   align-items: center;
   font-size: 22px;
   font-weight: 800;
   gap: 5px;
+  cursor: pointer;
 }
 body.services header div.h_logo div.logo {
   height: 40px;
@@ -886,6 +970,10 @@ body.services header nav ul a {
   font-size: 15px;
   color: #475569;
 }
+body.services header nav ul a:hover {
+  color: #4F46E5;
+  font-size: 16px;
+}
 body.services header button {
   width: 146px;
   height: 49px;
@@ -894,6 +982,13 @@ body.services header button {
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+}
+body.services header button:hover {
+  color: rgb(13, 13, 119);
 }
 body.services main {
   background-color: #F8FAFC;
@@ -941,6 +1036,14 @@ body.services main section.sec_2 div.cards div.card {
   border-radius: 18px;
   padding: 20px;
   gap: 30px;
+  cursor: pointer;
+}
+body.services main section.sec_2 div.cards div.card:hover {
+  height: 211px;
+  width: 351px;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
 }
 body.services main section.sec_2 div.cards div.card div.logo {
   background-color: #EEF2FF;
@@ -1008,6 +1111,14 @@ body.services main section.sec_3 div.cards div.card {
   border-radius: 18px;
   padding: 20px;
   gap: 30px;
+  cursor: pointer;
+}
+body.services main section.sec_3 div.cards div.card:hover {
+  height: 181px;
+  width: 251px;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
 }
 body.services main section.sec_3 div.cards div.card div.logo {
   background-color: #4F46E5;
@@ -1063,6 +1174,14 @@ body.services footer section.sec_1 button {
   color: #4F46E5;
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
+}
+body.services footer section.sec_1 button:hover {
+  height: 52px;
+  width: 160px;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
 }
 body.services footer section.sec_2 {
   display: flex;
@@ -1082,6 +1201,7 @@ body.services footer section.sec_2 div.footer_1 .f_logo {
   font-size: 22px;
   font-weight: 800;
   gap: 5px;
+  cursor: pointer;
 }
 body.services footer section.sec_2 div.footer_1 .f_logo div.logo {
   height: 40px;
@@ -1114,6 +1234,7 @@ body.services footer section.sec_2 div.footer_1 div.icons div.icon {
   color: white;
   font-size: 15px;
   font-weight: 700;
+  cursor: pointer;
 }
 body.services footer section.sec_2 div.contact h4 {
   font-size: 15px;
@@ -1156,12 +1277,16 @@ body.news header {
   align-items: center;
   padding: 15px;
 }
+body.news header details {
+  display: none;
+}
 body.news header div.h_logo {
   display: flex;
   align-items: center;
   font-size: 22px;
   font-weight: 800;
   gap: 5px;
+  cursor: pointer;
 }
 body.news header div.h_logo div.logo {
   height: 40px;
@@ -1181,6 +1306,10 @@ body.news header nav ul a {
   font-size: 15px;
   color: #475569;
 }
+body.news header nav ul a:hover {
+  color: #4F46E5;
+  font-size: 16px;
+}
 body.news header button {
   width: 146px;
   height: 49px;
@@ -1189,6 +1318,13 @@ body.news header button {
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+}
+body.news header button:hover {
+  color: rgb(13, 13, 119);
 }
 body.news main {
   background-color: #F8FAFC;
@@ -1225,6 +1361,12 @@ body.news main section.sec_1 div.text div.btns div {
   border-radius: 100px;
   border: solid 1px #E2E8F0;
   padding: 10px 20px;
+  cursor: pointer;
+}
+body.news main section.sec_1 div.text div.btns div:hover {
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
 }
 body.news main section.sec_1 div.text div.btns div a {
   color: #475569;
@@ -1329,9 +1471,17 @@ body.news main section.sec_3 div.cards div.card {
   border-radius: 20px;
   height: 330px;
   width: 350px;
+  cursor: pointer;
   box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.75);
+}
+body.news main section.sec_3 div.cards div.card:hover {
+  height: 331px;
+  width: 351px;
+  box-shadow: 0px 0px 57px -18px rgba(180, 180, 180, 0.75);
+  -webkit-box-shadow: 0px 0px 57px -18px rgba(180, 180, 180, 0.75);
+  -moz-box-shadow: 0px 0px 57px -18px rgba(180, 180, 180, 0.75);
 }
 body.news main section.sec_3 div.cards div.card div.img {
   background-color: #4F46E5;
@@ -1380,6 +1530,12 @@ body.news main section.sec_3 button {
   border-color: #eaebed;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
+}
+body.news main section.sec_3 button:hover {
+  box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.75);
 }
 body.news footer {
   background-color: #0B1120;
@@ -1509,12 +1665,16 @@ body.contact header {
   align-items: center;
   padding: 15px;
 }
+body.contact header details {
+  display: none;
+}
 body.contact header div.h_logo {
   display: flex;
   align-items: center;
   font-size: 22px;
   font-weight: 800;
   gap: 5px;
+  cursor: pointer;
 }
 body.contact header div.h_logo div.logo {
   height: 40px;
@@ -1534,6 +1694,10 @@ body.contact header nav ul a {
   font-size: 15px;
   color: #475569;
 }
+body.contact header nav ul a:hover {
+  color: #4F46E5;
+  font-size: 16px;
+}
 body.contact header button {
   width: 146px;
   height: 49px;
@@ -1542,6 +1706,13 @@ body.contact header button {
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+}
+body.contact header button:hover {
+  color: rgb(13, 13, 119);
 }
 body.contact main section.sec_1 {
   background-color: #F8FAFC;
@@ -1788,6 +1959,12 @@ body.contact main section.sec_2 div.form_footer button {
   font-size: 16px;
   font-weight: 700;
   color: white;
+  cursor: pointer;
+}
+body.contact main section.sec_2 div.form_footer button:hover {
+  box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 22px -4px rgba(0, 0, 0, 0.69);
 }
 body.contact footer {
   background-color: #0B1120;
@@ -1869,4 +2046,288 @@ body.contact footer div p.footer_p {
   font-weight: 400;
   color: #64748B;
   padding: 30px 80px;
+}
+
+@media (max-width: 768px) {
+  body.index {
+    display: flex;
+    flex-direction: column;
+  }
+  body.index header {
+    display: flex;
+    justify-content: space-between;
+  }
+  body.index header details {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+  }
+  body.index header details ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #080512;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  body.index header details ul a {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #6641fc;
+    z-index: 1;
+  }
+  body.index header details ul a:hover {
+    color: white;
+  }
+  body.index header nav {
+    display: none;
+  }
+  body.index header button {
+    display: none;
+  }
+  body.index main section.sec_1 {
+    display: flex;
+    flex-direction: column;
+  }
+  body.index main section.sec_1 div.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body.index main section.sec_1 div.right {
+    height: 240px;
+    width: 400px;
+  }
+  body.index main section.sec_1 div.right div.top {
+    height: 100px;
+    width: 300px;
+  }
+  body.index main section.sec_1 div.right div.bottom {
+    height: 70px;
+    width: 300px;
+  }
+  body.index main section.sec_2 nav ul {
+    flex-wrap: wrap;
+  }
+  body.index main section.sec_3 div.cards {
+    flex-wrap: wrap;
+  }
+  body.index footer section.sec_1 {
+    display: none;
+  }
+  body.index footer section.sec_3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body.about header {
+    display: flex;
+    justify-content: space-between;
+  }
+  body.about header details {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+  }
+  body.about header details ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #080512;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  body.about header details ul a {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #6641fc;
+    z-index: 1;
+  }
+  body.about header details ul a:hover {
+    color: white;
+  }
+  body.about header nav {
+    display: none;
+  }
+  body.about header button {
+    display: none;
+  }
+  body.about main section.sec_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  body.about main section.sec_2 div.left {
+    width: 100%;
+  }
+  body.about main section.sec_2 div.right {
+    height: 300px;
+    width: 400px;
+  }
+  body.about main section.sec_3 div.cards {
+    flex-wrap: wrap;
+  }
+  body.about main section.sec_4 div.cards {
+    flex-wrap: wrap;
+  }
+  body.about footer section.sec_1 {
+    display: none;
+  }
+  body.about footer section.sec_2 {
+    flex-wrap: wrap;
+  }
+  body.services header {
+    display: flex;
+    justify-content: space-between;
+  }
+  body.services header details {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+  }
+  body.services header details ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #080512;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  body.services header details ul a {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #6641fc;
+    z-index: 1;
+  }
+  body.services header details ul a:hover {
+    color: white;
+  }
+  body.services header nav {
+    display: none;
+  }
+  body.services header button {
+    display: none;
+  }
+  body.services main section.sec_3 div.cards {
+    flex-wrap: wrap;
+  }
+  body.services footer section.sec_2 {
+    flex-wrap: wrap;
+  }
+  body.news header {
+    display: flex;
+    justify-content: space-between;
+  }
+  body.news header details {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+  }
+  body.news header details ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #080512;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  body.news header details ul a {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #6641fc;
+    z-index: 1;
+  }
+  body.news header details ul a:hover {
+    color: white;
+  }
+  body.news header nav {
+    display: none;
+  }
+  body.news header button {
+    display: none;
+  }
+  body.news main section.sec_1 div.btns {
+    flex-wrap: wrap;
+  }
+  body.news main section.sec_2 div.main {
+    flex-direction: column;
+    max-width: 1200px;
+    width: 70%;
+  }
+  body.news main section.sec_2 div.main div.left {
+    border-radius: 20px;
+    padding: 170px 70px;
+  }
+  body.news main section.sec_2 div.main div.right {
+    border-radius: 20px;
+  }
+  body.news footer {
+    width: 100%;
+  }
+  body.news footer section.sec_2 {
+    flex-wrap: wrap;
+  }
+  body.contact header {
+    display: flex;
+    justify-content: space-between;
+  }
+  body.contact header details {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+  }
+  body.contact header details ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #080512;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  body.contact header details ul a {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #6641fc;
+    z-index: 1;
+  }
+  body.contact header details ul a:hover {
+    color: white;
+  }
+  body.contact header nav {
+    display: none;
+  }
+  body.contact header button {
+    display: none;
+  }
+  body.contact main section.sec_2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body.contact main section.sec_2 form {
+    width: 100%;
+  }
+  body.contact footer section.sec_1 {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  body.index main section.sec_1 div.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body.index main section.sec_1 div.left h1 {
+    font-size: 35px;
+  }
+  body.index main section.sec_1 div.left p {
+    font-size: 15px;
+  }
+  body.news main section.sec_3 div.cards div.card {
+    height: 370px;
+    width: 250px;
+  }
 }/*# sourceMappingURL=style.css.map */

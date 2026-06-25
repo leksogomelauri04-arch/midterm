@@ -14,6 +14,9 @@ body.index{
         justify-content: space-between;
         align-items: center;
         padding: 15px;
+        details{
+            display: none;
+        }
 
         div.h_logo{
             display: flex;
@@ -21,6 +24,7 @@ body.index{
             font-size: 22px;
             font-weight: 800;
             gap: 5px;
+            cursor: pointer;
             div.logo{
                 height:40px;
                 width: 40px;
@@ -40,6 +44,10 @@ body.index{
                     font-family: variables.$inter-font;
                     font-size: 15px;
                     color: #475569;
+                    &:hover{
+                        color: variables.$primary-color;
+                        font-size: 16px;
+                    }
 
                 }
             }
@@ -52,6 +60,13 @@ body.index{
             border-radius: 10px;
             font-family: variables.$inter-font;
             font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            &:hover{
+                color: rgb(13, 13, 119);
+            }
 
         }
     }
@@ -106,6 +121,7 @@ body.index{
                 display: flex;
                 align-items: center;
                 gap: 10px;
+                
                 .start{
                     height: 49px;
                     width: 167px;
@@ -114,6 +130,12 @@ body.index{
                     font-weight: 600;
                     color: white;
                     background-color: variables.$primary-color;
+                    &:hover{
+                        box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                        -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                        -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+
+                    }
                 }
                 .view{
                     height: 49px;
@@ -123,6 +145,12 @@ body.index{
                     font-weight: 600;
                     background-color: white;
                     color: black;
+                    &:hover{
+                        box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                        -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                        -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+
+                    }
                 }
             }
         }
@@ -218,6 +246,9 @@ body.index{
                     font-size: 24px;
                     font-weight: 700;
                     color: #E2E8F0;
+                    &:hover{
+                        color: #7a7f8c;
+                    }
                 }
             }
         }
@@ -259,6 +290,14 @@ body.index{
                 border-radius: 18px;
                 padding: 20px;
                 gap: 30px;
+                cursor: pointer;
+                &:hover{
+                    height: 211px;
+                    width: 371px;
+                    box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                }
                 div.logo{
                     background-color: #EEF2FF;
                     width:52px ;
@@ -341,6 +380,13 @@ body.index{
                 color: variables.$primary-color;
                 font-size: 16px;
                 font-weight: 700;
+                                cursor: pointer;
+                &:hover{
+                    box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                }
+
             }
         }
         section.sec_3{
@@ -359,6 +405,7 @@ body.index{
                     font-size: 22px;
                     font-weight: 800;
                     gap: 5px;
+                    cursor: pointer;
                     div.logo{
                         height:40px;
                         width: 40px;
@@ -383,6 +430,7 @@ body.index{
                 div.icons{
                     display: flex;
                     justify-content: space-between;
+                    cursor: pointer;
                     div.icon{
                         height: 40px;
                         width: 40px;

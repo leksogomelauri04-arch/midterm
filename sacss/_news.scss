@@ -13,12 +13,16 @@ body.news{
         justify-content: space-between;
         align-items: center;
         padding: 15px;
+                details{
+                   display: none;
+                }
         div.h_logo{
             display: flex;
             align-items: center;
             font-size: 22px;
             font-weight: 800;
             gap: 5px;
+            cursor: pointer;
             div.logo{
                 height:40px;
                 width: 40px;
@@ -38,6 +42,10 @@ body.news{
                     font-family: variables.$inter-font;
                     font-size: 15px;
                     color: #475569;
+                    &:hover{
+                        color: variables.$primary-color;
+                        font-size: 16px;
+                    }
 
                 }
             }
@@ -50,6 +58,13 @@ body.news{
             border-radius: 10px;
             font-family: variables.$inter-font;
             font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+            &:hover{
+                color: rgb(13, 13, 119);
+            }
 
         }
     }
@@ -81,13 +96,21 @@ body.news{
             div.btns{
                 display: flex;
                 gap: 30px;
+                
                 div{
                     background-color: white;
                     border-radius: 100px;
                     border: solid 1px #E2E8F0;
                     padding: 10px 20px;
+                    cursor: pointer;
+                    &:hover{
+                        box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                        -webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                        -moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.69);
+                    }    
                     a{
                         color: #475569;
+                        
                     }
                 }
             }
@@ -198,9 +221,17 @@ body.news{
                     border-radius: 20px;
                     height: 330px;
                     width: 350px;
+                    cursor: pointer;
                     box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.75);
                     -webkit-box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.75);
                     -moz-box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.75);
+                    &:hover{
+                        height: 331px;
+                        width: 351px;
+                        box-shadow: 0px 0px 57px -18px rgba(180,180,180,0.75);
+                        -webkit-box-shadow: 0px 0px 57px -18px rgba(180,180,180,0.75);
+                        -moz-box-shadow: 0px 0px 57px -18px rgba(180,180,180,0.75);
+                    }
                     div.img{
                         background-color: variables.$primary-color;
                         padding: 80px 0px;
@@ -253,9 +284,12 @@ body.news{
                     border-color: #eaebed;
                     font-size: 16px;
                     font-weight: 600;
-                //     box-shadow: 0px -1px 174px -84px rgba(0,0,0,1);
-                //    -webkit-box-shadow: 0px -1px 174px -84px rgba(0,0,0,1);
-                //    -moz-box-shadow: 0px -1px 174px -84px rgba(0,0,0,1);
+                    cursor: pointer;
+                    &:hover{
+                        box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.75);
+                        -webkit-box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.75);
+                        -moz-box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.75);
+                    }
                 }
             
             }
