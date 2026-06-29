@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
 @use "variables";
 @use "placeholders";
 
@@ -7,19 +14,30 @@ body.about{
     
     header{
         margin: 0 auto;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         max-width: 1400px;
         width: 90%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         padding: 15px;
         details{
             display: none;
         }
         div.h_logo{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             font-size: 22px;
             font-weight: 800;
             gap: 5px;
@@ -37,6 +55,8 @@ body.about{
         }
         nav{
             ul{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 gap: 32px;
                 a{
@@ -73,10 +93,19 @@ body.about{
         background-color: #F8FAFC;
         section.sec_1{
             div.text{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             gap: 20px;
             padding: 100px;
             h5{
@@ -98,14 +127,26 @@ body.about{
         }
         section.sec_2{
             background-color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             padding: 80px;
             div.left{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
-                justify-content: center;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
                 width: 50%;
                 gap: 30px;
                 h5{
@@ -139,10 +180,19 @@ body.about{
         section.sec_3{
             padding: 50px;
             div.text{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             gap: 20px;
             padding: 100px;
             h5{
@@ -162,15 +212,25 @@ body.about{
             }
         }
         div.cards{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             div.card{
                 background-color: white;
                 height: 180px;
                 width: 250px;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 border-radius: 18px;
                 padding: 20px;
                 gap: 30px;
@@ -189,9 +249,15 @@ body.about{
                     border-radius: 12px;
                     color: variables.$primary-color;
                     font-size: 21.8px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
                 }
                 h4{
                     font-size: 22px;
@@ -215,10 +281,19 @@ body.about{
             padding: 50px;
             background-color: white;
             div.text{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             gap: 20px;
             padding: 100px;
             h5{
@@ -233,17 +308,31 @@ body.about{
             }
         }
         div.cards{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             div.card{
                 background-color: #F8FAFC;
                 height: 310px;
                 width: 370px;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 border-radius: 18px;
                 padding: 20px;
                 gap: 20px;
@@ -263,9 +352,15 @@ body.about{
                     border-radius: 50%;
                     color: white;
                     font-size: 40px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
                 }
                 h4{
                     font-size: 22px;
@@ -283,6 +378,8 @@ body.about{
                     color: #475569;
                 }
                 .icons{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
                     gap: 10px;
                     div{
@@ -303,13 +400,25 @@ body.about{
     footer{
         background-color: #0B1120;
         section.sec_1{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             div.left{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
-                justify-content: center;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
                 gap: 20px;
                 padding: 80px 20px;
                 h3{
@@ -325,9 +434,15 @@ body.about{
                 }
             }
             div.right{             
+                display: -webkit-box;             
+                display: -ms-flexbox;             
                 display: flex;
-                justify-content: space-between;
-                align-items: center;
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
                 gap: 20px;
                 div{
                     height: 106px;
@@ -335,7 +450,10 @@ body.about{
                     background-color: #1E293B;
                     border-radius: 24px;
                     @extend %flex-center;
-                    flex-direction: column;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
                     h3{
                        font-size: 30px;
                        font-weight: 800;
@@ -351,18 +469,32 @@ body.about{
             }
         }
         section.sec_2{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             background-color: #0B1120;
             div.footer_1{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 padding: 20px;
                 gap: 20px;
                 .f_logo{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    align-items: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
                     font-size: 22px;
                     font-weight: 800;
                     gap: 5px;
@@ -389,8 +521,12 @@ body.about{
                     color: #94A3B8;
                 }
                 div.icons{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    justify-content: space-between;
+                    -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
+                            justify-content: space-between;
                     div.icon{
                         height: 40px;
                         width: 40px;
@@ -413,9 +549,16 @@ body.about{
                     margin-bottom: 10px;
                 }
                 ul{ 
+                    display: -webkit-box; 
+                    display: -ms-flexbox; 
                     display: flex;
-                    flex-direction: column;
-                    justify-content: center;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
                     gap: 10px;
                     
                     li{

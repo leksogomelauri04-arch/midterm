@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
 @use "variables";
 @use "placeholders";
 
@@ -6,19 +13,30 @@ body.news{
     
     header{
         margin: 0 auto;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         max-width: 1400px;
         width: 90%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         padding: 15px;
                 details{
                    display: none;
                 }
         div.h_logo{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             font-size: 22px;
             font-weight: 800;
             gap: 5px;
@@ -36,6 +54,8 @@ body.news{
         }
         nav{
             ul{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 gap: 32px;
                 a{
@@ -72,10 +92,19 @@ body.news{
         background-color: #F8FAFC;
         section.sec_1{
             div.text{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             gap: 20px;
             padding: 100px;
             h5{
@@ -94,6 +123,8 @@ body.news{
                 color: #475569;
             }
             div.btns{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 gap: 30px;
                 
@@ -120,6 +151,8 @@ body.news{
             margin: 0 auto;
             background-color: white;
             div.main{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 padding: 50px;
                 margin: 0 auto;
@@ -135,8 +168,12 @@ body.news{
                     border-radius: 0 20px 20px 0;
                     padding: 50px;
                     div.hd{
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        align-items: center;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
                         gap: 20px;
                         padding: 10px;
                         div.product{
@@ -170,8 +207,12 @@ body.news{
                         }
                     }
                     div.ft{
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        align-items: center;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
                         gap: 20px;
                         padding: 20px 0px;
                         div.logo{
@@ -203,20 +244,32 @@ body.news{
         section.sec_3{
             padding: 0px 0px 80px 0px;
             background-color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
 
 
             div.cards{
                 max-width: 1200px;
                 width: 90%;
                 margin: 0 auto;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-wrap: wrap;
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
                 gap: 70px;
                 padding: 50px;
-                align-items: center;
-                justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
                 div.card{
                     border-radius: 20px;
                     height: 330px;
@@ -238,8 +291,12 @@ body.news{
                         border-radius: 20px 20px 0px 0px;
                     }
                     div.hd{
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        align-items: center;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
                         gap: 20px;
                         padding: 10px;
                         h5{
@@ -300,10 +357,19 @@ body.news{
   
         section.sec_1{
             padding: 50px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             gap: 30px;
             h2{
                 font-size: 34px;
@@ -316,6 +382,8 @@ body.news{
                 color: #94A3B8;
             }
             form{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 gap: 20px;
                 input{
@@ -332,18 +400,32 @@ body.news{
             }
         }
         section.sec_2{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             background-color: #0B1120;
             div.footer_1{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 padding: 20px;
                 gap: 20px;
                 .f_logo{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    align-items: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
                     font-size: 22px;
                     font-weight: 800;
                     gap: 5px;
@@ -369,8 +451,12 @@ body.news{
                     color: #94A3B8;
                 }
                 div.icons{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    justify-content: space-between;
+                    -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
+                            justify-content: space-between;
                     div.icon{
                         height: 40px;
                         width: 40px;
@@ -392,9 +478,16 @@ body.news{
                     margin-bottom: 10px;
                 }
                 ul{ 
+                    display: -webkit-box; 
+                    display: -ms-flexbox; 
                     display: flex;
-                    flex-direction: column;
-                    justify-content: center;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
                     gap: 10px;
                     
                     li{

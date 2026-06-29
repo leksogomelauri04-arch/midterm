@@ -1,3 +1,9 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -56,6 +62,24 @@ a {
   text-decoration: none;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
 body.contact header div.h_logo div.logo, body.contact main section.sec_2 div.left div.mid div div.icon, body.contact main section.sec_2 div.left div.ft div.icons a, body.contact footer section.sec_1 div.footer_1 .f_logo div.logo, body.contact footer section.sec_1 div.footer_1 div.icons div.icon, body.news header div.h_logo div.logo, body.news main section.sec_2 div.main div.right div.ft div.logo, body.news footer section.sec_2 div.footer_1 .f_logo div.logo, body.news footer section.sec_2 div.footer_1 div.icons div.icon, body.services header div.h_logo div.logo, body.services main section.sec_3 div.cards div.card div.logo, body.services footer section.sec_2 div.footer_1 .f_logo div.logo, body.services footer section.sec_2 div.footer_1 div.icons div.icon, body.about header div.h_logo div.logo, body.about main section.sec_4 div.cards div.card .icons div, body.about footer section.sec_1 div.right div, body.about footer section.sec_2 div.footer_1 .f_logo div.logo, body.about footer section.sec_2 div.footer_1 div.icons div.icon, body.index header div.h_logo div.logo, body.index main section.sec_1 div.left div.small_text div.logo, body.index main section.sec_1 div.right div.bottom div.logo, body.index footer section.sec_3 div.footer_1 .f_logo div.logo, body.index footer section.sec_3 div.footer_1 div.icons div.icon {
   display: flex;
   justify-content: center;
@@ -512,6 +536,12 @@ body.index footer div p.footer_p {
   padding: 20px 50px;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
 body.about {
   margin: 0 auto;
 }
@@ -934,6 +964,12 @@ body.about footer div p.footer_p {
   padding: 30px 80px;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
 body.services {
   margin: 0 auto;
 }
@@ -1270,6 +1306,12 @@ body.services footer div p.footer_p {
   padding: 30px 80px;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
 body.news {
   margin: 0 auto;
 }
@@ -1661,6 +1703,12 @@ body.news footer div p.footer_p {
   padding: 30px 80px;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
 body.contact {
   margin: 0 auto;
 }
@@ -2060,6 +2108,12 @@ body.contact footer div p.footer_p {
   padding: 30px 80px;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
 @media (max-width: 768px) {
   body.index {
     display: flex;

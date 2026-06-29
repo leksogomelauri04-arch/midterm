@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
 @use "variables";
 @use "placeholders";
 
@@ -7,19 +14,30 @@ body.contact{
     
     header{
         margin: 0 auto;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         max-width: 1400px;
         width: 90%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         padding: 15px;
             details{
                 display: none;
             }
         div.h_logo{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             font-size: 22px;
             font-weight: 800;
             gap: 5px;
@@ -37,6 +55,8 @@ body.contact{
         }
         nav{
             ul{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 gap: 32px;
                 a{
@@ -74,10 +94,19 @@ body.contact{
         section.sec_1{
             background-color: #F8FAFC;
             div.text{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             gap: 20px;
             padding: 100px;
             h5{
@@ -99,11 +128,20 @@ body.contact{
         }
         section.sec_2{
             padding: 50px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
             div.left{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 gap: 30px;
                 div.hd{
                     box-shadow: 0px 0px 54px -24px rgba(0,0,0,0.86);
@@ -112,8 +150,13 @@ body.contact{
                     border-radius: 10px;
                     background-color: #EEF2FF;
                     width: 400px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-direction: column;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
                     gap: 5px;
                     padding: 10px;
                     h3{
@@ -124,6 +167,8 @@ body.contact{
                     }
                     div.text{
                         div{
+                            display: -webkit-box;
+                            display: -ms-flexbox;
                             display: flex;
                             gap: 50px;
                             padding: 10px;
@@ -151,19 +196,33 @@ body.contact{
                     }
                     div.ft_text{
                         padding: 10px;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        justify-content: space-between;
+                        -webkit-box-pack: justify;
+                            -ms-flex-pack: justify;
+                                justify-content: space-between;
                         div.days{
+                            display: -webkit-box;
+                            display: -ms-flexbox;
                             display: flex;
-                            flex-direction: column;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                                -ms-flex-direction: column;
+                                    flex-direction: column;
                             gap: 10px;
                             color: #475569;
                             font-size:15px ;
                             font-weight:400 ;
                         }
                         div.clocks{
+                            display: -webkit-box;
+                            display: -ms-flexbox;
                             display: flex;
-                            flex-direction: column;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                                -ms-flex-direction: column;
+                                    flex-direction: column;
                             gap: 10px;
                             color: #000000;
                             font-size:15px ;
@@ -180,8 +239,13 @@ body.contact{
                     border-radius: 10px;
                     background-color: #f5f7fb;
                     width: 400px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-direction: column;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
                     gap: 10px;
                     padding: 10px;
                 
@@ -193,9 +257,13 @@ body.contact{
                         color: #0F172A;
                     }
                     div{
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
                         gap: 20px;
-                        align-items: center;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
                         div.icon{
                             height: 34px;
                             width: 34px;
@@ -208,8 +276,13 @@ body.contact{
                 }
                 div.ft{
                     padding: 10px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-direction: column;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
                     gap: 20px;
                     p{
                         font-size:14px;
@@ -217,6 +290,8 @@ body.contact{
                         color: #0F172A;
                     }
                     div.icons{
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
                         gap: 10px;
                         a{
@@ -233,8 +308,13 @@ body.contact{
             form{
                 border-radius: 20px;
                 width: 60%;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 gap: 10px;
                 box-shadow: 0px 0px 40px -9px rgba(0,0,0,0.75);
                 -webkit-box-shadow: 0px 0px 40px -9px rgba(0,0,0,0.75);
@@ -249,13 +329,23 @@ body.contact{
                     margin: 0 auto;
                     padding: 20px;
                     gap: 30px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-wrap: wrap;
+                    -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
                     div{
-                        flex: 1 1 300px;
+                        -webkit-box-flex: 1;
+                            -ms-flex: 1 1 300px;
+                                flex: 1 1 300px;
                         min-width: 0;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        flex-direction: column;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
                         gap: 10px;
                         label{
                             font-size: 14px;
@@ -267,7 +357,8 @@ body.contact{
                             padding: 12px;
                             border: 1px solid #dfe6ef;
                             border-radius: 10px;
-                            box-sizing: border-box;
+                            -webkit-box-sizing: border-box;
+                                    box-sizing: border-box;
                         }
                     }
                 }
@@ -275,15 +366,26 @@ body.contact{
                                 margin: 0 auto;
                                 padding: 20px;
                                 gap: 30px;
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                flex-direction: column;
+                                -webkit-box-orient: vertical;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: column;
+                                        flex-direction: column;
                                 width: 100%;
-                                box-sizing: border-box; 
+                                -webkit-box-sizing: border-box;
+                                        box-sizing: border-box; 
     
                                 div{
                                     min-width: 0;
+                                    display: -webkit-box;
+                                    display: -ms-flexbox;
                                     display: flex;
-                                    flex-direction: column;
+                                    -webkit-box-orient: vertical;
+                                    -webkit-box-direction: normal;
+                                        -ms-flex-direction: column;
+                                            flex-direction: column;
                                     gap: 10px;
                                     label{
                                          font-size: 14px;
@@ -295,7 +397,8 @@ body.contact{
                                         padding: 12px;
                                         border: 1px solid #dfe6ef;
                                         border-radius: 10px;
-                                        box-sizing: border-box; 
+                                        -webkit-box-sizing: border-box;
+                                                box-sizing: border-box; 
                                     }
                                     #message{
                                         height:100px;
@@ -306,13 +409,22 @@ body.contact{
                 }
                 div.form_footer{
                     padding: 20px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-direction: column;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
                     gap: 20px;
                     div{ 
+                        display: -webkit-box; 
+                        display: -ms-flexbox; 
                         display: flex;
                         gap: 20px;
                         label{
+                            display: -webkit-box;
+                            display: -ms-flexbox;
                             display: flex;
                             }
                         
@@ -338,18 +450,32 @@ body.contact{
     footer{
         background-color: #0B1120;
         section.sec_1{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             background-color: #0B1120;
             div.footer_1{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
                 padding: 20px;
                 gap: 20px;
                 .f_logo{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    align-items: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
                     font-size: 22px;
                     font-weight: 800;
                     gap: 5px;
@@ -375,8 +501,12 @@ body.contact{
                     color: #94A3B8;
                 }
                 div.icons{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    justify-content: space-between;
+                    -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
+                            justify-content: space-between;
                     div.icon{
                         height: 40px;
                         width: 40px;
@@ -398,9 +528,16 @@ body.contact{
                     margin-bottom: 10px;
                 }
                 ul{ 
+                    display: -webkit-box; 
+                    display: -ms-flexbox; 
                     display: flex;
-                    flex-direction: column;
-                    justify-content: center;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
                     gap: 10px;
                     
                     li{
