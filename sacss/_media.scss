@@ -346,11 +346,42 @@
                     justify-content: center;
                     align-items: center;
                    h1{
-                      font-size: 35px;
+                      font-size: 30px;
                     }
                     p{
-                        font-size: 15px;
+                        font-size: 10px;
                     }
+                    div.btns{
+                        margin-bottom: 30px;
+                        .start{
+                            height: 50px;
+                            width: 140px;
+                            font-size: 14px;
+
+                        }
+                        .view{
+                            height: 50px;
+                            width: 140px;
+                            font-size: 14px;
+
+                        }
+                    }
+                }
+                div.right{
+                        height: 250px;
+                        width: 270px;
+                        div.top{
+                               height: 80px;
+                               width: 220px;
+
+                        }
+                        div.bottom{
+                                   height: 50px;
+                                   width: 220px;
+
+                        }
+            
+
                 }
             }
         }
@@ -359,11 +390,46 @@
         main{
             section.sec_3{
                 div.cards{
+                        gap: 70px;
+                        padding: 0px;
                     div.card{
-                       height:370px;
+                       height:380px;
                        width: 250px;
+                            div.img{
+                                    padding: 80px 0px;
+                            }
+                            &:hover{
+                                    height: 381px;
+                                    width: 251px;
+
+                            }
+
                     }
             
+                }
+            }
+        }
+    }
+    body.about{
+        main{
+            section.sec_2{
+                div.right{   
+                        height: 200px;
+                        width: 250px;   
+                }
+            }
+        }
+    }
+    body.contact{
+        main{
+            section.sec_2{
+                div.left{
+                    div.hd{
+                        width: 250px;
+                    }
+                    div.mid{
+                        width: 250px;
+                    }
                 }
             }
         }

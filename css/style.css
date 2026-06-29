@@ -498,6 +498,9 @@ body.index footer section.sec_3 div.contact ul li {
   font-weight: 400;
   color: #94A3B8;
 }
+body.index footer section.sec_3 div.contact ul li a:hover {
+  color: #4F46E5;
+}
 body.index footer div hr {
   width: 90%;
   background-color: #1E293B;
@@ -916,6 +919,9 @@ body.about footer section.sec_2 div.contact ul li {
   font-size: 14px;
   font-weight: 400;
   color: #94A3B8;
+}
+body.about footer section.sec_2 div.contact ul li a:hover {
+  color: #4F46E5;
 }
 body.about footer div hr {
   width: 90%;
@@ -1641,6 +1647,9 @@ body.news footer section.sec_2 div.contact ul li {
   font-weight: 400;
   color: #94A3B8;
 }
+body.news footer section.sec_2 div.contact ul li a:hover {
+  color: #4F46E5;
+}
 body.news footer div hr {
   width: 90%;
   background-color: #1E293B;
@@ -2037,6 +2046,9 @@ body.contact footer section.sec_1 div.contact ul li {
   font-weight: 400;
   color: #94A3B8;
 }
+body.contact footer section.sec_1 div.contact ul li a:hover {
+  color: #4F46E5;
+}
 body.contact footer div hr {
   width: 90%;
   background-color: #1E293B;
@@ -2321,13 +2333,59 @@ body.contact footer div p.footer_p {
     align-items: center;
   }
   body.index main section.sec_1 div.left h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   body.index main section.sec_1 div.left p {
-    font-size: 15px;
+    font-size: 10px;
+  }
+  body.index main section.sec_1 div.left div.btns {
+    margin-bottom: 30px;
+  }
+  body.index main section.sec_1 div.left div.btns .start {
+    height: 50px;
+    width: 140px;
+    font-size: 14px;
+  }
+  body.index main section.sec_1 div.left div.btns .view {
+    height: 50px;
+    width: 140px;
+    font-size: 14px;
+  }
+  body.index main section.sec_1 div.right {
+    height: 250px;
+    width: 270px;
+  }
+  body.index main section.sec_1 div.right div.top {
+    height: 80px;
+    width: 220px;
+  }
+  body.index main section.sec_1 div.right div.bottom {
+    height: 50px;
+    width: 220px;
+  }
+  body.news main section.sec_3 div.cards {
+    gap: 70px;
+    padding: 0px;
   }
   body.news main section.sec_3 div.cards div.card {
-    height: 370px;
+    height: 380px;
+    width: 250px;
+  }
+  body.news main section.sec_3 div.cards div.card div.img {
+    padding: 80px 0px;
+  }
+  body.news main section.sec_3 div.cards div.card:hover {
+    height: 381px;
+    width: 251px;
+  }
+  body.about main section.sec_2 div.right {
+    height: 200px;
+    width: 250px;
+  }
+  body.contact main section.sec_2 div.left div.hd {
+    width: 250px;
+  }
+  body.contact main section.sec_2 div.left div.mid {
     width: 250px;
   }
 }/*# sourceMappingURL=style.css.map */
